@@ -141,7 +141,7 @@ public class UserFactory
             
             String query = 
                       "select id from utente "
-                    + "where email = ? and password = ?";
+                    + "where username = ? and password = ?";
             
          
             PreparedStatement stmt = conn.prepareStatement(query);
