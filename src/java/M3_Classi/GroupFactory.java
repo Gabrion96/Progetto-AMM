@@ -112,7 +112,7 @@ public class GroupFactory
             Connection conn = DriverManager.getConnection(connectionString, "amm", "amm");
             
             String query = 
-                "SELECT gruppo.id, gruppo.nome, gruppo.urlImmagine FROM gruppo "
+                "SELECT gruppo.id, gruppo.nome FROM gruppo "
                 + "INNER JOIN followgruppo ON gruppo.id = followgruppo.followed "
                 + "WHERE followgruppo.follower = ?";
             
