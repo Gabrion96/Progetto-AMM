@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Nerdbook: Trova nuovi amici nerd come te!!</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport"
+              content="width=device-width,
+              initial-scale=1.0">
+        <meta name="author"
+              content="Gabriele">
+        <meta name="Keywords"
+              content="cerca amici nerd ">      
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+    
+    <body>
+        <div id="barra">
+            <header>
+                <div id="title">
+                    <h1>NerdBook</h1>
+                </div>
+            </header>
+            <nav>
+                <ol>
+                    <li class="active"><a href="profilo.html">Profilo</a></li>
+                    <li><a href="bacheca.html">Bacheca</a></li>
+                    <li><a href="descrizione.html">Descrizione</a></li>
+                </ol>
+            </nav>
+            <div id="utente">
+                <div id="login">
+                    <a href="login.html">Logout:</a>
+                </div>
+                <div id="nome">
+                    <h3>Jhin</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div id="info">
+                <h2>Persone</h2>
+                <ol>
+                    <li>Yasuo</li>
+                    <li>Zed</li>
+                    <li>Lee sin</li>
+                </ol>
+            
+                <h2>Gruppi</h2>
+                <ol>
+                    <li>Lol-italia</li>
+                    <li>League of legends</li>
+                </ol>
+        </div>
+       
+        <div id="divBodyProfilo">
+            <div class="titolo">
+                <h1>Profilo</h1>
+            </div>
+            
+            <div class="profilePic">
+                <img alt="Foto profilo di Jhin" src="img/lol-icona-jhin.png">
+            </div>
+            
+            <form action="#" method="get">
+                <div class="campi">
+                    <label for="name">Nome</label> 
+                    <input type="text" name="name" 
+                            id="nomeProfilo" value=""/>
+
+                
+                    <label for="cognome">Cognome</label> 
+                    <input type="text" name="cognome" 
+                           id="cognome" value=""/>
+
+              
+                    <label for="url">Img Profilo</label>
+                    <input type="url" name="url"
+                           id="url" value=""/>
+
+               
+                    <label for="frase">Frase di presentazione</label>
+                    <input type="text" name="frase"
+                           id="frase" value="">
+           
+
+                    <label for="data">Data di Nascita</label>
+                    <input type="date" name="data"
+                           id="data" value=""/>
+              
+            
+                    <label for="pswd">Password</label>
+                    <input type="password" name="pswd"
+                        id="pswd" value="" />
+
+                    <label for="conpswd">Conferma Password</label>
+                    <input type="password" name="conpswd"
+                           id="conpswd" value="" />
+                </div>   
+                
+                <div id="aggiorna">
+                    <button type="submit">Aggiorna</button>
+                </div>
+            </form>
+        </div>     
+    </body>   
+</html>
